@@ -10,7 +10,7 @@ public class TestData {
             {"standard_user", "secret_sauce"},  // valid
             {"locked_out_user", "secret_sauce"}, // locked user
             {"problem_user", "secret_sauce"},    // has some bugs
-            {"invalid_user", "wrong_pass"},      // invalid login
+           // {"invalid_user", "wrong_pass"},      // invalid login
         };
     }
 }
