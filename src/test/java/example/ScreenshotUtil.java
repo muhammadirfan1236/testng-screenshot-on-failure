@@ -20,7 +20,7 @@ public class ScreenshotUtil {
         String path = "./screenshots/" + testName + "_" + timestamp + ".png";
 
         try {
-            // Save the screenshot to the specified path
+           
             FileUtils.copyFile(src, new File(path));
             System.out.println("Screenshot saved: " + path);
         } catch (IOException e) {
